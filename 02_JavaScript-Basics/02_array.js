@@ -7,6 +7,10 @@ console.log(frd_gujarat) // [ __________ [ ______ ]]
 const frd_all =  frd_gujarat.concat(frd_lko)
 console.log(frd_gujarat)  //  [ ____________________ ]
 
+//--------- spread method, mostly used this methods -------
+const frinds = [...frd_gujarat, ...frd_lko]
+console .......
+
 const frd_count = [1, 2, [3, 4,], [5, 6 [7, 8]] ]
 const frd_total = frd_count.flat(Infinity)
 console.log(frd_total)   // [ _________________________________  ]
